@@ -20,7 +20,7 @@ const userSchema = new Schema({
     }
 });
 
-module.export = mongoose.model(
+module.exports = mongoose.model(
     "userModel", //filename
     userSchema //function name
 )
